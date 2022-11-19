@@ -6,7 +6,8 @@ function contar(){
 
 
     if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0){
-        alert("ERRO! Não pode ficar campo VAZIO")
+        res.innerHTML = "Impossivel contar: "
+        //alert("ERRO! Não pode ficar campo VAZIO")
     } else {
         res.innerHTML = "Contando: "
         var i = Number(ini.value)
